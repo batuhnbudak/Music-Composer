@@ -1,0 +1,55 @@
+package player;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class WriteObject
+   {
+      public void serializePlayer(MiniPlayer player)
+      {
+         FileOutputStream fout = null;
+         ObjectOutputStream oos = null;
+         
+         try{
+            fout = new FileOutputStream("C:");
+            oos = new ObjectOutputStream(fout);
+            oos.writeObject(player);
+            
+            System.out.println("Done");
+         } catch (Exception ex){
+            ex.printStackTrace();
+            
+         } finally {
+            if(fout != null){
+               try{
+                  fout.close();
+               } catch (IOException e) {
+                  e.printStackTrace();
+               }
+            }
+            
+            if(oos != null){
+               try{
+                  oos.close();
+               } catch (IOException e) {
+                  e.printStackTrace();
+               }
+            }
+         }
+         
+      }
+   
+   public void serializeAddressJDK7(MiniPlayer player) {
+      
+      try (ObjectOutputStream oos = 
+           new ObjectOutputStream(new FileOutputStream("C:\\Users\\b1bat\\OneDrive\\Masaüstü\\asdasd"))) {
+         
+         oos.writeObject(player);
+         System.out.println("Done");
+         
+      } catch (Exception ex) {
+         ex.printStackTrace();
+      }
+   }
+      
+   }
