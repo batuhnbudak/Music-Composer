@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" main="player.TestTracksClass" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="player/WriteObject.java" package="player" timestamp="12-May-2019 08:03:52">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="player/Note.java" package="player" timestamp="12-May-2019 08:35:38">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="GUI_STUFF/LeftPanel.java" package="GUI_STUFF" timestamp="12-May-2019 06:21:24">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="player/Channels.java" package="player" timestamp="12-May-2019 06:12:20">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="GUI_STUFF/UndoRedo.java" package="GUI_STUFF" timestamp="12-May-2019 06:16:38">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="GUI_STUFF/TrackPanelRight.java" package="GUI_STUFF" timestamp="12-May-2019 06:42:10">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="GUI_STUFF/TrackPanel.java" package="GUI_STUFF" timestamp="12-May-2019 06:43:42">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="GUI_STUFF/TrackPanelLeft.java" package="GUI_STUFF" timestamp="12-May-2019 06:46:32">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="GUI_STUFF/ChannelsPanel.java" package="GUI_STUFF" timestamp="12-May-2019 07:01:44">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="Composition_Screen/CS.java" package="Composition_Screen" timestamp="12-May-2019 07:47:10">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="Composition_Screen/CS_Elements/MCanvas.java" package="Composition_Screen.CS_Elements" timestamp="12-May-2019 07:50:20">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="Composition_Screen/CS_Elements/MPiano.java" package="Composition_Screen.CS_Elements" timestamp="12-May-2019 07:55:12">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="GUI_STUFF/TitlePanel.java" package="GUI_STUFF" timestamp="12-May-2019 07:56:16">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="GUI_STUFF/GridPanel.java" package="GUI_STUFF" timestamp="12-May-2019 07:59:00">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="Composition_Screen/CS_Elements/MTimeline.java" package="Composition_Screen.CS_Elements" timestamp="12-May-2019 08:02:04">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="Composition_Screen/CS_Elements/MBar.java" package="Composition_Screen.CS_Elements" timestamp="12-May-2019 08:02:08">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="player/ReadObject.java" package="player" timestamp="12-May-2019 08:03:48">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="player/MiniPlayer.java" package="player" timestamp="12-May-2019 08:33:00">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+      <file name="player/TestTracksClass.java" package="player" timestamp="12-May-2019 11:33:08">
+        <select from="150" to="150"/>
+        <scroll column="669" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
