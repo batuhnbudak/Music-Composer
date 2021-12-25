@@ -1,21 +1,30 @@
 # Music-Composer
 Music Composer in Java
-----------------------------------------GENERAL INFO -------------------------
+
+---------- GENERAL INFO ----------
+
 Project Number: g1C
 Title Description: Music Composer
 Current status: Working but: redo button disabled, the right part of the track panel(the panel that is located at the bottom) is currently not working-has all the methods but still too buggy to include-
 List of group members:
 
 Batuhan Budak -> Save, load, save midi, Javax.sound.midi
+
 Deniz Kasap -> Javax.sound.midi, listeners, communication between different components
+
 Ali Çetinkaya -> Composition screen, help with track panel
+
 Buğra Karacan -> Track panel, experiments with sound files
+
 Kaan Gürler -> Left panel, Menu Bar
+
 Yiğit Duman -> Track panel
---------------------------------------------GENERAL INFO END-----------------------
+
+---------- GENERAL INFO END ----------
 
 
----------------------------------DESCRIPTION OF CLASSES------------------------------
+---------- DESCRIPTION OF CLASSES ---------- 
+
 The code works on three different components in three different packages
 
 The Composition_Screen package that contains the composition screen,
@@ -43,22 +52,29 @@ Composition screen is also where you add, edit and remove notes.
 On the track pannel, you can edit a channels properties, like change the instrument, mute the channel, solo it, or change its volume
 
 Left panel edits a channel or a note, for it to edit a single note, you need to select that note which can be done on the composition screen.
-------------------------------------------------END OF DESCRIPTION---------------------------
 
--------------------------------------------------CLASS HIERARCHY---------------------------------------
+---------- END OF DESCRIPTION ----------
+
+---------- CLASS HIERARCHY ----------
+
 Note class's constructor takes some int values to initialize the note with javax.sound.midi
 -There is only one instance of a miniplayer- MiniPlayer's constructor does not take any parameters->it does not communicate with others, the others communicate with it
 Channels's constructor takes a miniPlayer instance to communicate with it, every single notes needs to be on a channel, so notes are passed from the channel's class to the player
 CS class's constructor takes a channel to interact with notes, you can access the player through the channel class, so the cs (composition screen) can interact with both channels and player
 All CS_Elements take a channel -some of them also takes a CS- to interact with notes,channels,player and the composition screen
 All the GUI_STUFF class's takes a channel and a CS to interact with both of them
-----------------------------------------------END OF CLASS HIERARCHY---------------------------
----what tools we used--------------------------------
+
+---------- END OF CLASS HIERARCHY ----------
+
+---------- what tools we used ----------
+
 The code uses javax.sound.midi, java.io, swing, awt,
 As an IDE, most of used DRJAVA but some used Eclipse
+
 ---------------------------------------------------------------------------
 
----------------------------------HOW TO USE--RUN--- AND WHERE TO FIND SOME STUFF-----------------
+---------- HOW TO USE-RUN--- AND WHERE TO FIND FUNCTIONALITIES ----------
+
 Because we kind of finished the project at the last second there is no pretty way to use it,
 You should compile and run our main method which is TestTracksClass(which is also an old name)
 
